@@ -13,7 +13,7 @@
   color: #fff !important;
 }
 #section1{
-  background-image: url("../img/índice.jpg") ;
+  background-image: url("/img/índice.jpg") ;
   background-size: cover;
   box-shadow: 0em  0em 2em .5em #1e383b;
 }
