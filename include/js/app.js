@@ -30,5 +30,11 @@ $(document).ready(function() {
           'transform': 'scale(1)'
         });
       });
+    $('#img').mouseenter(function() {
+        $('#hide').slideDown(900,'easeInQuad');
+     });
+    $('#hide').mouseleave(function(){
+          $(this).slideUp(900,'easeOutQuad');
+      });
   });
   
