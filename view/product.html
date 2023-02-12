@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../include/css/product.css">
+    <link rel="stylesheet" href="../include/jquery-ui-1.13.2/jquery-ui.theme.css">
+    <link rel="stylesheet" href="../include/jquery-ui-1.13.2/jquery-ui.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top opacity-75" id="nav">
@@ -33,20 +35,21 @@
           </div>
         </div>
     </nav>
-    <div class="container-fluid my-3 ">
+    <div class="container-fluid">
       <div class="row ">
         <div class="col">
           <h2 class="fw-bold fst-italic fs-1 text-secondary text-center font-monospace">- Nuestro menu -</h2>
         </div>
         <div class="row mb-3 mx-0"> 
           <div class="col-md-4 mb-3" >
-            <div class="card" >
+            <div class="card">
               <div class="card-body" id="cardImg">
                 <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" id="img" >
               </div>
               <div class="text-center " id="hide">
-                <h2 class="text-success-emphasis my-2 ps-2 fw-bold">Salads</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h1 class="text-light fst-italic my-2 fw-bold">Food</h1>
+                <p class="text-dark p-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h4 class="fw-bold" style="color: #117964;">Precio: $1000</h4>
               </div>
             </div>
           </div>
@@ -56,19 +59,21 @@
                   <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="" id="img1">
               </div>
               <div class="text-center " id="hide1">
-                <h2 class="text-success-emphasis my-2 ps-2 fw-bold">Salads</h2>
+                <h1 class="text-light fst-italic my-2 fw-bold">Food</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
-              </div>
-              <div class="text-center " id="hide2">
-                <h2 class="text-success-emphasis my-2 ps-2 fw-bold">Salads</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h4 class="fw-bold" style="color: #117964;">Precio: $1000</h4>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <div class="card-body">
+              <div class="card-body" id="cardImg2">
                 <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" id="img2">
+              </div>
+              <div class="text-center " id="hide2">
+                <h1 class="text-light fst-italic my-2 fw-bold">Food</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h4 class="fw-bold" style="color: #117964;">Precio: $1000</h4>
               </div>
             </div>
           </div>
@@ -76,22 +81,37 @@
         <div class="row mb-3 mx-0"> 
           <div class="col-lg-4 mb-3">
             <div class="card">
-              <div class="card-body">
-                <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" id="img">
+              <div class="card-body" id="cardImg3">
+                <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" id="img3">
+              </div>
+              <div class="text-center " id="hide3">
+                <h1 class="text-light fst-italic my-2 fw-bold">Food</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h4 class="fw-bold" style="color: #117964;">Precio: $1000</h4>
               </div>
             </div>
           </div>
           <div class="col-lg-4 mb-3">
             <div class="card">
-              <div class="card-body">
-                <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" id="img">
+              <div class="card-body" id="cardImg4">
+                <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" id="img4">
+              </div>
+              <div class="text-center " id="hide4">
+                <h1 class="text-light fst-italic my-2 fw-bold">Food</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h4 class="fw-bold" style="color: #117964;">Precio: $1000</h4>
               </div>
             </div>
           </div>
           <div class="col-lg-4 mb-3">
             <div class="card">
-              <div class="card-body">
-                <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" id="img">
+              <div class="card-body" id="cardImg5">
+                <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" id="img5">
+              </div>
+              <div class="text-center " id="hide5">
+                <h1 class="text-light fst-italic my-2 fw-bold">Food</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique eos iste suscipit sapiente. Enim cumque inventore nesciunt, molestiae sed pariatur magnam et quis omnis amet soluta reprehenderit dolorem voluptates.</p>
+                <h4 class="fw-bold" style="color: #117964;">Precio: $1000</h4>
               </div>
             </div>
           </div>
@@ -100,75 +120,154 @@
           <div class="col-lg-12">
             <h2 class="fw-bold fst-italic fs-1 text-secondary text-center font-monospace">- Bebidas -</h2>
           </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Categorias</h4>
+          <div class="col-lg-12">
+            <div class="card shadow-lg" id="accordion">
+              <h4 class="card-title fs-5 fw-bolder text-light border-1 border-light-subtle rounded-2 fst-italic" style="background-color: #1e383bad;">Bebidas Naturales</h4>
+              <div class="card-body mx-auto w-100">
+                <div class="row mb-3">
+                  <div class="col-md-4 d-grid ">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_eWbOjemXlCXlpvFCQara_VdhgbCY5CMW3g&usqp=CAU" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $500</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://www.eurekaciencia.com/wp-content/uploads/2019/06/aroma-beverage-blur-96974.jpg" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $500</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://encolombia.com/wp-content/uploads/2012/11/Melon-al-Ron-330x205.jpg" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $500</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
+              <h4 class="card-title fs-5 fw-bolder text-light border-1 border-light-subtle rounded-2 fst-italic" style="background-color: #1e383bad;">Batidos naturales en leche</h4>
               <div class="card-body">
-                <h4 class="card-title">Categorias</h4>
+                <div class="row mb-3">
+                  <div class="col-md-4 d-grid ">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://recetinas.com/wp-content/uploads/2022/05/batidos-naturales.jpg" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $750</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://www.sabervivirtv.com/medio/2018/07/11/smoothie-arandano_e67468df_1200x710.jpg" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $750</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://static2.abc.es/media/bienestar/2020/07/04/batidos-saludables-krqF--1024x512@abc.jpeg" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $750</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
+              <h4 class="card-title fs-5 fw-bolder text-light border-1 border-light-subtle rounded-2 fst-italic" style="background-color: #1e383bad;">Bebidas alcoholicas</h4>
               <div class="card-body">
-                <h4 class="card-title">Categorias</h4>
+                <div class="row mb-3">
+                  <div class="col-md-4 d-grid ">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://images.squarespace-cdn.com/content/v1/56945af11c121086a88a2187/1520442651913-FALTCC282ZS0V3Y4115M/ke17ZwdGBToddI8pDm48kCDPt3hydunyKwzwWymiClZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyeg1efH4WYV9YHGcz8S71WTQEVY6nJw7eLd4PWFHdaUFa8MPghyI3UbtOojhGB9ko/tipos+de+bebidas+alcoholicas" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $925</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPG9H8fZZSvBk72Rgnk4xLGfkNDoZfASlw-A&usqp=CAU" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $800</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-lg border-3 rounded-3" style="width: 18rem;">
+                      <img src="https://i0.wp.com/barman.news/wp-content/uploads/2017/10/BARMAN-ACADEMY-BARMANTODAY-ALCOHOL-TOP-RANKING-VENTAS-JAGERMEISTER-.png?fit=419%2C440&ssl=1" class="card-img-top rounded-top-3" alt="..." style="width: auto; height: 35vh;">
+                      <div class="card-body text-center">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="fw-bold" style="color: #117964;">Precio: $800</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
     <section class="footer">
-        <footer class="mt-auto  text-white">
-          <div class="container-lg p-4">
-            <div class="row">
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase fst-italic">frank's Restaurante</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Redes Sociales</h5>
-    
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#!" class="text-white"><i class="bi bi-whatsapp">Whatsapp</i></a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white "><i class="bi bi-facebook">Facebook</i></a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white"><i class="bi bi-instagram">Instagram</i></a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white"><i class="bi bi-twitter">Twitter</i></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Contacta con nosotros</h5>
-                <p><i class="fa fa-envelope-o mr-3"></i> info@mail.com</p>
-              </div>
+      <footer class="mt-auto  text-white">
+        <div class="container-lg p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase fst-italic">frank's Restaurante</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                aliquam voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Redes Sociales</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-whatsapp">Whatsapp</i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white "><i class="bi bi-facebook">Facebook</i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-instagram">Instagram</i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-twitter">Twitter</i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contacta con nosotros</h5>
+              <p><i class="fa fa-envelope-o mr-3"></i> info@mail.com</p>
             </div>
           </div>
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
-            <a class="text-white fst-italic" href="https://proyect-jquery.vercel.app/">Frank' Restaurante</a>
-          </div>
-        </footer>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          <a class="text-white fst-italic" href="https://proyect-jquery.vercel.app/">Frank' Restaurante</a>
+        </div>
+      </footer>
     </section>
-    
     <script src="../include/js/jquery-3.6.3.min.js"></script>
     <script src="../include/js/jquery.easing.1.3.js"></script>
+    <script src="../include/jquery-ui-1.13.2/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="../include/js/product.js"></script>
